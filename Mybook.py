@@ -112,12 +112,6 @@ class Details_User:
                 try:
                     attritute = (input("You can Update(Name,Dob,Gender,Age,Mobile) here:"))
                     attritute = str(attritute)
-                    #if(attritute == ""):
-                    #    print("Plz provide input")
-                    #    continue
-                    #if not attritute.isalpha():
-                    #    print("No Numeric values Allowed Here!!")
-                    #    continue
                     break 
                 except ValueError:
                     print("Not Valid...")
